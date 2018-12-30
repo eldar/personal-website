@@ -8,33 +8,26 @@ date = 2016-04-20T00:00:00
 weight = 5
 
 # List your academic interests.
-[interests]
-  interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
-  ]
+# [interests]
+#  interests = [
+#    "Computer Vision",
+#    "Human Pose Estimation",
+#    "3D Learning"
+#  ]
 
 # List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
-
-[[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+#[[education.courses]]
+#  course = "MSc in Visual Computing"
+#  institution = "Saarland University"
+#  year = 2016
  
 +++
 
-# Biography
+I am a 3rd year PhD student at the [Computer Vision group](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/) 
+in Max Planck Institute for Informatics under the supervision of Prof. Bernt Schiele.
+My research interests include human pose estimation in unconstrained scenes and unsupervised learning of 3D representations. I obtained my master's degree in Visual Computing from the Saarland University.
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+[Contact](mailto:e.insafutdinov at gmail) |
+[Google Scholar](https://scholar.google.co.uk/citations?user=u4unGhAAAAAJ) |
+[GitHub](https://github.com/eldar) |
+[LinkedIn](https://linkedin.com/in/eldar-insafutdinov-18845315)
