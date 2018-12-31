@@ -27,7 +27,7 @@ I am a 3rd year PhD student at the [Computer Vision group](https://www.mpi-inf.m
 in Max Planck Institute for Informatics under the supervision of Prof. Bernt Schiele.
 My research interests include human pose estimation in unconstrained scenes and unsupervised learning of 3D representations. I obtained my master's degree in Visual Computing from the Saarland University.
 
-[Contact](mailto:e.insafutdinov at gmail) |
+[Contact](mailto:e.insafutdinov@gmail) |
 [Google Scholar](https://scholar.google.co.uk/citations?user=u4unGhAAAAAJ) |
 [GitHub](https://github.com/eldar) |
 [LinkedIn](https://linkedin.com/in/eldar-insafutdinov-18845315)
