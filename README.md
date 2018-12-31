@@ -1,52 +1,58 @@
-# Academic Kickstart
+# Academic Webpage
 
-**Academic** is a framework to help you create a beautiful website quickly. Perfect for personal, student, or academic websites. [Check out the latest demo](https://themes.gohugo.io/theme/academic/) of what you'll get in less than 10 minutes or [view the documentation](https://sourcethemes.com/academic/docs/).
+This is my personal webpage based on the **Academic** framework. I simplified and streamlined the theme significantly to match the type of personal webpages you would find in the Machine Learning community.
+You can check out [the original demo](https://themes.gohugo.io/theme/academic/) of Academic or its [official documentation](https://sourcethemes.com/academic/docs/).
 
-**Academic Kickstart** provides a minimal template to kickstart your new website by following the simple steps below.
-
-[![Screenshot](https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png)](https://github.com/gcushen/hugo-academic/)
+In this README I will re-iterate the very basics needed to get started, mostly for my own sake.
 
 ## Getting Started
 
-The following two methods describe how to install in the cloud using your web browser and how to install on your PC using the Command Prompt/Terminal app.
+1. [Download](https://github.com/gohugoio/hugo/releases) and install Hugo.
 
-### Quick install using your web browser
+2. Clone or fork this repository:
 
-1. [Install Academic with Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart)
-    * Netlify will provide you with a customizable URL to access your new site
-2. On GitHub, go to your newly created `academic-kickstart` repository and edit `config.toml` to personalize your site. Shortly after saving the file, your site will automatically update
-3. Read the [Quick Start Guide](https://sourcethemes.com/academic/docs/) to learn how to add Markdown content. For inspiration, refer to the [Markdown content](https://github.com/gcushen/hugo-academic/tree/master/exampleSite) which powers the [Demo](https://themes.gohugo.io/theme/academic/)
+```bash
+git clone --recurse-submodules https://github.com/eldar/personal-website.git mywebsite
+cd mywebsite
+```
 
-### Install on your PC
+3. View your website
 
-Prerequisites:
+```bash
+    hugo server
+```
 
-* [Download and install Git](https://git-scm.com/downloads)
-* [Download and install Hugo](https://gohugo.io/getting-started/installing/#quick-install)
+    Now you can go to http://localhost:1313 and your new Academic powered website should appear.
 
-1. Clone (or [Fork](https://github.com/sourcethemes/academic-kickstart#fork-destination-box) or [download](https://github.com/sourcethemes/academic-kickstart/archive/master.zip)) the *Academic Kickstart* repository with Git: 
+## Filling Content
 
-       git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
-    
-    *Note that if you forked Academic Kickstart, the above command should be edited to clone your fork.*
+### General Info
+1. Set your name in `config.toml` in the `[params]` section. Also set the title of the website
 
-2. Initialize the theme:
+2. Add short bio to the `content/home/about.md`
 
-       cd My_Website
-       git submodule update --init --recursive
+### Publications
+1. Now you can start adding publications. Publications are stored in the `content/publication` directory, you can use mine as an example. In order to generate data for publication you can use a python tool that is supplied with the **Academic** framework:
 
-3. View your new website:
-      
-       hugo server
+```bash
+# First install the tool:
+pip3 install academic
 
-    Now you can go to [localhost:1313](http://localhost:1313) and your new Academic powered website should appear.
-  
-4. Read the [Quick Start Guide](https://sourcethemes.com/academic/docs/) to learn how to add Markdown content, customize your site, and deploy it.
+# then import the .bib file into the website
+# make sure your current directory is the root of the website repo
+academic import --bibtex /path/to/publication.bib
+```
+
+2. The previous step will create a directory corresponding to the publication under `content/publication`. This directory will contain file `index.md` which contains various definitions. You will have to open it and make further edits:
+
+- Set the abstract to the `abstract` field, if not already there
+- Set unique publication identifier to the `shortname`, much like you do in the bibtex, for example `"watson2018cvpr"`
+- Specify abbreviation for the conference in `venue` field, for example `"CVPR, 2018"`
+- You can place an optional teaser image to the publication directory, its file name has to contain `featured` in it.
+- Add various URLs associated with the paper: `url_pdf` to link to the PDF of the paper (required), `url_project` for the project page, `url_video` for the video, `url_code` for the code and `url_slides` for the slides.
 
 ## License
 
-Copyright 2017 [George Cushen](https://georgecushen.com).
+Copyright 2018 [George Cushen](https://georgecushen.com), [Eldar Insafutdinov](https://eldar.github.io).
 
 Released under the [MIT](https://github.com/sourcethemes/academic-kickstart/blob/master/LICENSE.md) license.
-
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/academic-kickstart/readme?pixel)](https://github.com/igrigorik/ga-beacon)
