@@ -11,8 +11,7 @@ weight = 5
 # [interests]
 #  interests = [
 #    "Computer Vision",
-#    "Human Pose Estimation",
-#    "3D Learning"
+#    "Machine Learning",
 #  ]
 
 # List your qualifications (such as academic degrees).
