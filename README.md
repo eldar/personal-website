@@ -1,6 +1,10 @@
 # Academic Webpage
 
-This is my personal webpage based on the **Academic** framework. I simplified and streamlined the theme significantly to match the type of personal webpages you would find in the Machine Learning community.
+This is the source code for my [personal webpage](https://eldar.github.io/).
+
+The code is based on the **Academic** framework for **Hugo**.
+This framework allows you to never touch HTML/CSS to build your own website.
+I simplified and streamlined the theme significantly to match the type of personal webpages you would find in the Machine Learning community.
 You can check out [the original demo](https://themes.gohugo.io/theme/academic/) of Academic or its [official documentation](https://sourcethemes.com/academic/docs/).
 
 In this README I will re-iterate the very basics needed to get started, mostly for my own sake.
