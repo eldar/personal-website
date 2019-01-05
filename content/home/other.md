@@ -27,3 +27,6 @@ weight = 50
 
 My keypoint detection algorithm from the DeeperCut paper and [its implementation](https://github.com/eldar/pose-tensorflow) served as the foundation for [DeepLabCut](http://www.mousemotorlab.org/deeplabcut), a toolbox for studying the behavior of animals in the lab setting developed by neuroscientists at the Universities of Tübingen and Harvard. The toolbox gained significant popularity and is now used in more than 200 labs for a variety of tracking tasks. It is discussed in the corresponding [Nature Neuroscience paper](https://www.nature.com/articles/s41593-018-0209-y.epdf) and was covered on the [NVIDIA News](https://news.developer.nvidia.com/ai-enables-markerless-animal-tracking/) and [The Atlantic](https://www.theatlantic.com/science/archive/2018/07/deeplabcut-tracking-animal-movements/564338).
 
+## Multi-person Body Pose Estimation demo at ECCV 2016
+
+We gave a real-time demonstration of our Multi-person Body Pose Estimation algorithm at [ECCV 2016](http://www.eccv2016.org/main-conference/).
