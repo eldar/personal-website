@@ -9,7 +9,7 @@ abstract = "We address the problem of learning accurate 3D shape and camera pose
 publication = "*Advances in Neural Information Processing Systems 31 (NeurIPS 2018)*"
 venue = "NeurIPS, 2018"
 url_pdf = "https://arxiv.org/pdf/1810.09381"
-url_project = "https://eldar.github.io/PointClouds/"
+url_project = "https://eldar.insafutdinov.com/PointClouds/"
 url_code = "https://github.com/eldar/differentiable-point-clouds"
 url_video = "https://www.youtube.com/watch?v=LuIGovKeo60"
 +++
