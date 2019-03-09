@@ -25,7 +25,7 @@ weight = 5
 I am a 3rd year PhD student at the [Computer Vision group](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/) 
 in Max Planck Institute for Informatics under the supervision of Prof. Bernt Schiele. I am insterested in applying Deep Learning to challenging Computer Vision problems. More specifically, I have been working on human pose estimation in unconstrained scenes and unsupervised learning of 3D representations. I obtained my master's degree in Visual Computing from the Saarland University.
 
-[Contact](mailto:e.insafutdinov@gmail) |
+[Contact](mailto:e.insafutdinov@gmail.com) |
 [Google Scholar](https://scholar.google.co.uk/citations?user=u4unGhAAAAAJ) |
 [GitHub](https://github.com/eldar) |
 [LinkedIn](https://linkedin.com/in/eldar-insafutdinov-18845315)
