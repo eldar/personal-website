@@ -23,7 +23,7 @@ weight = 5
 +++
 
 I am a 4th year PhD student at the [Computer Vision group](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/) 
-in Max Planck Institute for Informatics under the supervision of Prof. Bernt Schiele. My primary interest is developing learning models of the world that require minimal supervision. During the course of my doctoral studies I have been working on human pose estimation in unconstrained scenes and unsupervised learning of 3D representations. I obtained my master's degree in Visual Computing from the Saarland University.
+in Max Planck Institute for Informatics under the supervision of Prof. Bernt Schiele. My primary interest is developing learning models of the world that require minimal supervision. During the course of my doctoral studies I have been working on human pose estimation in unconstrained scenes and unsupervised learning of 3D representations. I had the pleasure to do an internship at the Intelligent Systems Lab at Intel led by Vladlen Koltun. I obtained my master's degree in Visual Computing from the Saarland University.
 
 [Contact](mailto:e.insafutdinov@gmail.com) |
 [Google Scholar](https://scholar.google.co.uk/citations?user=u4unGhAAAAAJ) |
