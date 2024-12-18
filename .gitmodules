@@ -4,4 +4,4 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/eldar/eldar.github.io
-	branch = master
+	branch = main
