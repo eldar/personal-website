@@ -1,6 +1,6 @@
 +++
 title = "Flash3D: Feed-Forward Generalisable 3D Scene Reconstruction from a Single Image"
-date = 2024-06-06
+date = 2024-08-01
 authors = ["Stanislaw Szymanowicz", "Eldar Insafutdinov", "Chuanxia Zheng", "Dylan Campbell", "João F. Henriques", "Christian Rupprecht", "Andrea Vedaldi"]
 publication_types = ["1"]
 selected = false
